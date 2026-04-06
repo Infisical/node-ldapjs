@@ -3,11 +3,11 @@
   "name": "ldapjs",
   "homepage": "http://ldapjs.org",
   "description": "LDAP client and server APIs",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ldapjs/node-ldapjs.git"
+    "url": "git://github.com/Infisical/node-ldapjs.git"
   },
   "main": "lib/index.js",
   "dependencies": {
