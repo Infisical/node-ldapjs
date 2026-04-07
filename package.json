@@ -1,10 +1,10 @@
 {
   "originalAuthor": "Mark Cavage <mcavage@gmail.com>",
   "name": "@infisical/ldapjs",
-  "types": "node_modules/@types/ldapjs/index.d.ts",
+  "types": "types/index.d.ts",
   "homepage": "http://ldapjs.org",
   "description": "LDAP client and server APIs",
-  "version": "3.0.9",
+  "version": "3.0.10",
   "license": "MIT",
   "repository": {
     "type": "git",
