@@ -1,6 +1,6 @@
 {
   "originalAuthor": "Mark Cavage <mcavage@gmail.com>",
-  "name": "ldapjs",
+  "name": "@infisical/ldapjs",
   "homepage": "http://ldapjs.org",
   "description": "LDAP client and server APIs",
   "version": "3.0.8",
@@ -10,6 +10,9 @@
     "url": "git://github.com/Infisical/node-ldapjs.git"
   },
   "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
   "dependencies": {
     "@ldapjs/asn1": "^2.0.0",
     "@ldapjs/attribute": "^1.0.0",
@@ -55,5 +58,8 @@
   "pre-commit": [
     "lint:ci",
     "test"
-  ]
+  ],
+  "publishConfig": {
+  "access": "public"
+  }
 }
