@@ -60,6 +60,6 @@
     "test"
   ],
   "publishConfig": {
-  "access": "public"
+    "access": "public"
   }
 }
